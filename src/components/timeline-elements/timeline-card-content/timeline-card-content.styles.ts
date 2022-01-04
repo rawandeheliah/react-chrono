@@ -48,6 +48,7 @@ export const TimelineContentSubTitle = styled.p<{
 }>`
   color: ${(p) => p.theme.primary};
   font-size: 0.85rem;
+  white-space: pre-line;
   font-weight: 600;
   margin: 0;
   padding-left: 0.5rem;
@@ -73,6 +74,7 @@ export const TimelineCardTitle = styled.p<{ theme: Theme; dir?: string }>`
 export const TimelineContentDetails = styled.p<{ theme?: Theme }>`
   color: ${(p) => p.theme.cardForeColor};
   font-size: 0.85rem;
+  white-space: pre-line;
   font-weight: 400;
   margin: 0;
   touch-action: none;
