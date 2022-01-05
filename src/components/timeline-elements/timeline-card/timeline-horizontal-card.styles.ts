@@ -52,6 +52,7 @@ interface CircleModel {
 
 export const Circle = styled.div<CircleModel>`
   border-radius: 50%;
+  margin:2px;
   cursor: pointer;
   height: ${(p) => p.dimension}px;
   width: ${(p) => p.dimension}px;
